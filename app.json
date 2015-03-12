@@ -3,6 +3,10 @@
   "description": "A barebones Node.js app using Express 4",
   "repository": "https://github.com/heroku/button-sample",
   "logo": "http://node-js-sample.herokuapp.com/node.svg",
-  HAHAHA BROKEN JSON
+  "env": {
+    "A_VAR": {
+      "generator": "not a real generator"
+    }
+  },
   "keywords": ["node", "express", "static"]
 }
