@@ -7,6 +7,7 @@ app.set('view engine', 'ejs');
 app.set('views', __dirname + '/public');
 
 app.get('/', function(request, response) {
+  // Here's a comment
   response.render('index.html');
 });
 
