@@ -6,5 +6,8 @@
   "keywords": ["node", "express", "static"],
     "formation": [
     { "process": "web", "quantity": 1, "size": "not-a-valid-size :(" }
-  ]
+  ],
+  "scripts": {
+    "postdeploy": "bin/setup"
+  }
 }
