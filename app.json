@@ -1,6 +1,7 @@
 {
   "name": "sample-node-app",
   "scripts": {
+    "pr-predestroy": "echo 'Good bye!'"
   },
   "env": {
   },
