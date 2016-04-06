@@ -3,6 +3,7 @@
   "scripts": {
   },
   "env": {
+    "SOME_CONFIG": true
   },
   "addons": [
 
