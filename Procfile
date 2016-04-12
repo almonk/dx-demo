@@ -1,2 +1,2 @@
 web: npm start
-worker:  while true; do; echo "working"; sleep 10; done;
+worker:  node -e "setInterval(function(){console.log('working')}, 1000);"
