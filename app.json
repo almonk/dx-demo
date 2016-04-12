@@ -11,5 +11,10 @@
     {
       "url": "https://github.com/heroku/heroku-buildpack-nodejs"
     }
-  ]
+  ],
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  }
 }
