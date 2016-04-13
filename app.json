@@ -8,17 +8,8 @@
     }
   },
   "formation": {
-    "clock": {
-      "quantity": 1,
-      "size": "Standard-1X"
-    },
-    "worker": {
-      "quantity": 1,
-      "size": "Standard-1X"
-    },
     "web": {
-      "quantity": 1,
-      "size": "Standard-1X"
+      "quantity": 1
     }
   },
   "addons": [
