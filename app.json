@@ -1,0 +1,35 @@
+{
+  "name": "sample-node-app",
+  "scripts": {
+  },
+  "env": {
+    "VAR": {
+      "required": true
+    }
+  },
+  "formation": {
+    "clock": {
+      "quantity": 1,
+      "size": "Standard-1X"
+    },
+    "worker": {
+      "quantity": 1,
+      "size": "Standard-1X"
+    },
+    "web": {
+      "quantity": 1,
+      "size": "Standard-1X"
+    }
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-addon-wait"
+    }
+  ]
+}
