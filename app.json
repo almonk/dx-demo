@@ -2,11 +2,6 @@
   "name": "sample-node-app",
   "scripts": {
   },
-  "env": {
-    "VAR": {
-      "required": true
-    }
-  },
   "formation": {
     "web": {
       "quantity": 1
