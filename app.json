@@ -1,8 +1,5 @@
 {
   "name": "sample-node-app",
-  "scripts": {
-    "postdeploy": "echo 'Uh-oh; exit 1'"
-  },
   "env": {
     "VAR": {
       "required": true
