@@ -1,8 +1,5 @@
 {
   "name": "sample-node-app",
-  "scripts": {
-    "postdeploy": "echo 'Uh-oh; exit 1' \n echo 'Uh-oh; exit 1' \n echo 'Uh-oh; exit 1' \n echo 'Uh-oh; exit 1' \n echo 'Uh-oh; exit 1' \n echo 'Uh-oh; exit 1' \n echo 'Uh-oh; exit 1' \n echo 'Uh-oh; exit 1' \n echo 'Uh-oh; exit 1' \n echo 'Uh-oh; exit 1' \n echo 'Uh-oh; exit 1' \n echo 'Uh-oh; exit 1' \n echo 'Uh-oh; exit 1' \n echo 'Uh-oh; exit 1' \n echo 'Uh-oh; exit 1' \n echo 'Uh-oh; exit 1' \n echo 'Uh-oh; exit 1' \n echo 'Uh-oh; exit 1' "
-  },
   "formation": {
     "web": {
       "quantity": 1
@@ -14,9 +11,6 @@
   "buildpacks": [
     {
       "url": "heroku/nodejs"
-    },
-    {
-      "url": "https://github.com/heroku/heroku-buildpack-addon-wait"
     }
   ]
 }
